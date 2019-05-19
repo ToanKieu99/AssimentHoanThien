@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/thongke_thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Thống kê khoản thu"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pieChart_Thu"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thongke_thu">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Thống kê khoản Chi"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pieChart_Chi"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

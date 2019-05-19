@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffa042"
+        android:gravity="center"
+        android:text="Thêm"
+        android:textColor="#fff"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/editThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Thêm " />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/bthuy"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:textColor="#d10000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Thêm"
+            android:id="@+id/btthem"
+            android:textColor="#d10000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/itemKhoanThu"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Khoản thu" />
+
+        <item
+            android:id="@+id/itemLoaiThu"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Loại thu" />
+
+
+        <item
+            android:id="@+id/itemThongKe"
+            android:icon="@drawable/ic_thong_ke_24dp"
+            android:title="Thông kê" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/itemGioiThieu"
+                android:icon="@drawable/ic_insert_drive_file_black_24dp"
+                android:title="Giới Thiệu" />
+
+            <item
+                android:id="@+id/itemThoat"
+                android:icon="@drawable/ic_settings_power_black_24dp"
+                android:title="Thoát" />
+        </menu>
+    </item>
+</menu>
